@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDFE"
+    tools:context=".MainActivity">
+
+
+  <Button
+      android:id="@+id/PedAceptarbtn"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="11dp"
+      android:layout_marginEnd="8dp"
+      android:background="#2196F3"
+      android:text="Pedidos Por Aceptar"
+      android:textColor="@color/colorPrimaryDark"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+  <ImageView
+      android:id="@+id/imageView3"
+      android:layout_width="229dp"
+      android:layout_height="177dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginRight="8dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/frutagolosa" />
+
+  <Button
+      android:id="@+id/PedidoEnEsperabtn"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:background="#4CAF50"
+      android:text="Pedidos en espera"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/PedAceptarbtn" />
+
+  <Button
+      android:id="@+id/PedidosFabricadosbtn"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:background="#D5F44336"
+      android:text="Pedidos Frabricados"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/PedidoEnEsperabtn" />
+
+  <Button
+      android:id="@+id/PedidosEnRutabtn"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:background="#FF9800"
+      android:text="Pedidos en Ruta"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/PedidosFF" />
+
+  <Button
+      android:id="@+id/PedidosFF"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:background="#FF5100"
+      android:text="DESPACHADO (CON FOTO)"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/PedidosFabricadosbtn" />
+
+  <Button
+      android:id="@+id/PedidosEntregadosbtn"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:background="#8BC34A"
+      android:text="Pedidos Entregados"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/PedidosEnRutabtn" />
+
+</android.support.constraint.ConstraintLayout>

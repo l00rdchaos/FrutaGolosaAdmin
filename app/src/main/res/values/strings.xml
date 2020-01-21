@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclerViewRetrofit</string>
+    <string name="to_do">to do</string>
+    <string name="enter_note">enter note</string>
+    <string name="date">date</string>
+    <string name="fecha_pedidotxt">Fecha_Pedidotxt</string>
+    <string name="clave_de_sector">CLAVE DE SECTOR</string>
+</resources>
